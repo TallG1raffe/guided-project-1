@@ -61,6 +61,6 @@ const renderPlanet = planet => {
   climate.textContent = planet?.climate;
   const charactersLis = planet?.characters?.map(character => `<li><a href="/character.html?id=${character?.id}">${character?.name}</li>`);
   charactersUl.innerHTML = charactersLis.join("");
-  const filmsLis = character?.films?.map(film => `<li><a href="/film.html?id=${film.id}">${film.title}</li>`)
+  const filmsLis = planet?.films?.map(film => `<li><a href="/films.html?id=${film.id}">${film.title}</li>`);
   filmsUl.innerHTML = filmsLis.join("");
 }
