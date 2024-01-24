@@ -16,8 +16,9 @@ p {
   --light1: white;
   --dark2: darkblue;
   --light2: lightblue;
-  background-color: var(--light1);
-  color: var(--dark1);
+
+  background-image: url("deathstar.jpg");
+  color: var(--light2);
 }
 
 button {
@@ -114,7 +115,7 @@ section#films a {
   font-size: 1.1em;
 
   background-image: url("download.jpg");
-  color: var(--light1);
+  color: var(--light2);
   font-weight: bold;
   padding: 10px;
   margin: 10px;
