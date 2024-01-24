@@ -85,7 +85,7 @@ h1#name {
 #generalInfo p {
   padding: 20px;
   margin: 10px;
-  color: var(--light1);
+  color: var(--light2);
   background-image: url("download.jpg");
 }
 
